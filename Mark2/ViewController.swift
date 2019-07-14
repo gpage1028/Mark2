@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let iGoHalfWithYouBro = "hell nawl cuz"
         // Do any additional setup after loading the view.
     }
 
