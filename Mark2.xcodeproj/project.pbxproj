@@ -15,6 +15,7 @@
 		DE36163022DBDA01008ACDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE36162E22DBDA01008ACDA7 /* LaunchScreen.storyboard */; };
 		DE36163B22DBDA01008ACDA7 /* Mark2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36163A22DBDA01008ACDA7 /* Mark2Tests.swift */; };
 		DE36164622DBDA01008ACDA7 /* Mark2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36164522DBDA01008ACDA7 /* Mark2UITests.swift */; };
+		DE36165422DBDCC3008ACDA7 /* Brain Line Art-291181.png in Resources */ = {isa = PBXBuildFile; fileRef = DE36165322DBDCC3008ACDA7 /* Brain Line Art-291181.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DE36164122DBDA01008ACDA7 /* Mark2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mark2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE36164522DBDA01008ACDA7 /* Mark2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark2UITests.swift; sourceTree = "<group>"; };
 		DE36164722DBDA01008ACDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE36165322DBDCC3008ACDA7 /* Brain Line Art-291181.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brain Line Art-291181.png"; path = "../../../Downloads/Brain Line Art-291181.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DE36162E22DBDA01008ACDA7 /* LaunchScreen.storyboard */,
 				DE36163122DBDA01008ACDA7 /* Info.plist */,
 				DE36162922DBDA01008ACDA7 /* Mark2.xcdatamodeld */,
+				DE36165322DBDCC3008ACDA7 /* Brain Line Art-291181.png */,
 			);
 			path = Mark2;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				DE36163022DBDA01008ACDA7 /* LaunchScreen.storyboard in Resources */,
 				DE36162D22DBDA01008ACDA7 /* Assets.xcassets in Resources */,
+				DE36165422DBDCC3008ACDA7 /* Brain Line Art-291181.png in Resources */,
 				DE36162822DBDA01008ACDA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
