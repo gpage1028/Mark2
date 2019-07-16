@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DE36162322DBDA01008ACDA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36162222DBDA01008ACDA7 /* AppDelegate.swift */; };
-		DE36162522DBDA01008ACDA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36162422DBDA01008ACDA7 /* ViewController.swift */; };
+		DE36162522DBDA01008ACDA7 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36162422DBDA01008ACDA7 /* ContainerVC.swift */; };
 		DE36162822DBDA01008ACDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE36162622DBDA01008ACDA7 /* Main.storyboard */; };
 		DE36162B22DBDA01008ACDA7 /* Mark2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE36162922DBDA01008ACDA7 /* Mark2.xcdatamodeld */; };
 		DE36162D22DBDA01008ACDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE36162C22DBDA01008ACDA7 /* Assets.xcassets */; };
@@ -16,6 +16,8 @@
 		DE36163B22DBDA01008ACDA7 /* Mark2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36163A22DBDA01008ACDA7 /* Mark2Tests.swift */; };
 		DE36164622DBDA01008ACDA7 /* Mark2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36164522DBDA01008ACDA7 /* Mark2UITests.swift */; };
 		DE36165422DBDCC3008ACDA7 /* Brain Line Art-291181.png in Resources */ = {isa = PBXBuildFile; fileRef = DE36165322DBDCC3008ACDA7 /* Brain Line Art-291181.png */; };
+		DE36165622DBE906008ACDA7 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36165522DBE906008ACDA7 /* SideMenuVC.swift */; };
+		DEDF966A22DCB4D6000A50A9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF966922DCB4D6000A50A9 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 /* Begin PBXFileReference section */
 		DE36161F22DBDA01008ACDA7 /* Mark2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mark2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE36162222DBDA01008ACDA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE36162422DBDA01008ACDA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE36162422DBDA01008ACDA7 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		DE36162722DBDA01008ACDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE36162A22DBDA01008ACDA7 /* Mark2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mark2.xcdatamodel; sourceTree = "<group>"; };
 		DE36162C22DBDA01008ACDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		DE36164522DBDA01008ACDA7 /* Mark2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark2UITests.swift; sourceTree = "<group>"; };
 		DE36164722DBDA01008ACDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE36165322DBDCC3008ACDA7 /* Brain Line Art-291181.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brain Line Art-291181.png"; path = "../../../Downloads/Brain Line Art-291181.png"; sourceTree = "<group>"; };
+		DE36165522DBE906008ACDA7 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		DEDF966922DCB4D6000A50A9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				DE36162222DBDA01008ACDA7 /* AppDelegate.swift */,
-				DE36162422DBDA01008ACDA7 /* ViewController.swift */,
+				DE36162422DBDA01008ACDA7 /* ContainerVC.swift */,
+				DE36165522DBE906008ACDA7 /* SideMenuVC.swift */,
+				DEDF966922DCB4D6000A50A9 /* MainVC.swift */,
 				DE36162622DBDA01008ACDA7 /* Main.storyboard */,
 				DE36162C22DBDA01008ACDA7 /* Assets.xcassets */,
 				DE36162E22DBDA01008ACDA7 /* LaunchScreen.storyboard */,
@@ -263,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE36162522DBDA01008ACDA7 /* ViewController.swift in Sources */,
+				DEDF966A22DCB4D6000A50A9 /* MainVC.swift in Sources */,
+				DE36162522DBDA01008ACDA7 /* ContainerVC.swift in Sources */,
 				DE36162B22DBDA01008ACDA7 /* Mark2.xcdatamodeld in Sources */,
+				DE36165622DBE906008ACDA7 /* SideMenuVC.swift in Sources */,
 				DE36162322DBDA01008ACDA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
